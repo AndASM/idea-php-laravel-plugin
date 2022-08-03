@@ -1,11 +1,10 @@
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 
 plugins {
-    id "org.jetbrains.intellij" version "0.6.5"
+    id "org.jetbrains.intellij" version "1.7.0"
 }
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
@@ -18,9 +17,9 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 intellij {
-    version platformVersion
-    type platformType
-    updateSinceUntilBuild true
+    version = platformVersion
+    type = platformType
+    updateSinceUntilBuild = true
     plugins = [
             "com.jetbrains.php:${phpPluginVersion}",
             "com.jetbrains.php.blade:${bladePluginVersion}",
@@ -28,26 +27,14 @@ intellij {
             'java-i18n',
             'properties'
     ]
-    pluginName pluginName_
-}
-
-patchPluginXml {
-    version pluginVersion
-    sinceBuild sinceBuild
-    untilBuild untilBuild
-    changeNotes = htmlFixer('src/main/resources/META-INF/change-notes.html')
-}
-
-publishPlugin {
-    username System.getenv('IJ_REPO_USERNAME')
-    password System.getenv('IJ_REPO_PASSWORD')
+    pluginName = pluginName_
 }
 
 group 'de.espend.idea.laravel'
 version pluginVersion
 
 wrapper {
-    gradleVersion '6.8.2'
+    gradleVersion '7.5'
 }
 
 test.testLogging.exceptionFormat = TestExceptionFormat.FULL

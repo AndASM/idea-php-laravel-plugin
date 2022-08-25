@@ -2,3 +2,7 @@ out/
 /.idea
 /build
 /.gradle
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace

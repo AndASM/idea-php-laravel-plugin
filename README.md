@@ -1,18 +1,9 @@
 IntelliJ IDEA / PhpStorm Laravel Plugin
 -------------
-[![Build Status](https://travis-ci.org/Haehnchen/idea-php-laravel-plugin.svg?branch=master)](https://travis-ci.org/Haehnchen/idea-php-laravel-plugin)
-[![Version](http://phpstorm.espend.de/badge/7532/version)](https://plugins.jetbrains.com/plugin/7532)
-[![Downloads](http://phpstorm.espend.de/badge/7532/downloads)](https://plugins.jetbrains.com/plugin/7532)
-[![Downloads last month](http://phpstorm.espend.de/badge/7532/last-month)](https://plugins.jetbrains.com/plugin/7532)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/DanielEspendiller)
 
-Based on [Symfony Plugin](https://github.com/Haehnchen/idea-php-symfony2-plugin)
-
-Key         | Value
------------ | -----------
-Plugin url  | https://plugins.jetbrains.com/plugin/7532
-Id          | de.espend.idea.laravel
-Changelog   | [CHANGELOG](CHANGELOG.md)
+>
+> THIS PROJECT IS DEAD. I'm not a new maintainer, I'm just a guy who needs this plugin to work in the latest PHPStorm version.
+>
 
 ## Installation
 

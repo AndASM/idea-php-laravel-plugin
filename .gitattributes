@@ -1,0 +1,4 @@
+# When using the gradle wrapper, Windows line endings in .bat files should be accounted for.
+
+* text eol=lf
+*.bat text eol=crlf
